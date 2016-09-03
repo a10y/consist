@@ -1,0 +1,6 @@
+[package]
+name = "consist"
+version = "0.1.0"
+authors = ["Andrew Duffy <root@aduffy.org>"]
+
+[dependencies]
