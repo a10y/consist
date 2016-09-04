@@ -1,0 +1,11 @@
+machine:
+    pre:
+        - wget https://static.rust-lang.org/rustup.sh
+        - chmod +x rustup.sh
+        - ./rustup.sh --channel=nightly -y
+
+test:
+    override:
+        - cargo build -v
+        - cargo test -v
+
