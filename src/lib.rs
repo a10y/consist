@@ -29,7 +29,8 @@ impl<B> HashRing<B> where B: Hash {
     }
 
     /// Finds the corresponding bucket for this item
-    pub fn get_bucket<T: Hash>(&self, item: &T) -> Option<&B> {
+    pub fn get_bucket<T>(&self, item: &T) -> Option<&B> 
+      where T: Hash {
         let hash_code = HashRing::<B>::get_hash_code(item);
         // If there are no buckets in the end of the circle from here to the end, we wrap around
         // and try from the beginning.
