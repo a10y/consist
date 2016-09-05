@@ -2,5 +2,7 @@
 name = "consist"
 version = "0.1.0"
 authors = ["Andrew Duffy <root@aduffy.org>"]
+license = "MIT"
+description = "Dead-simple consistent hashing library"
 
 [dependencies]

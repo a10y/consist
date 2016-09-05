@@ -9,7 +9,7 @@ The original use case was to create a hashing scheme for cache servers so that t
 several nodes, which minimizing the amount of entries that would need to be shifted around when a node joins or leaves
 the network.
 
-consist is a simple library implementing Consistent Hashing in Rust.
+consist is a **simple**, **zero-dependency** library implementing Consistent Hashing in Rust.
 
 Usage
 -------
