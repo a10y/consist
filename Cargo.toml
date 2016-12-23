@@ -1,8 +1,10 @@
 [package]
 name = "consist"
-version = "0.1.0"
-authors = ["Andrew Duffy <root@aduffy.org>"]
+version = "0.1.1"
+authors = ["Andrew Duffy <root@aduffy.io>"]
 license = "MIT"
 description = "Dead-simple consistent hashing library"
+repository = "https://github.com/andreweduffy/consist"
+documentation = "https://docs.rs/consist/0.1.1/"
 
 [dependencies]
