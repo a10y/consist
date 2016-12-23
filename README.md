@@ -1,3 +1,4 @@
+[![Crates.io](https://img.shields.io/crates/d/consist.svg)]()
 [![Circle CI](https://circleci.com/gh/andreweduffy/consist/tree/master.svg?style=svg)](https://circleci.com/gh/andreweduffy/consist/tree/master)
 
 consist: Consistent Hashing in Rust
