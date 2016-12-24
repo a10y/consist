@@ -1,10 +1,12 @@
 [package]
 name = "consist"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["Andrew Duffy <root@aduffy.io>"]
 license = "MIT"
+keywords = ["consistent", "hashing", "ring"]
 description = "Dead-simple consistent hashing library"
 repository = "https://github.com/andreweduffy/consist"
-documentation = "https://docs.rs/consist/0.1.1/"
+documentation = "https://docs.rs/consist/0.2.0/"
+include = ["src/**/*", "Cargo.toml"]
 
 [dependencies]
