@@ -1,5 +1,5 @@
 [![Crates.io](https://img.shields.io/crates/v/consist.svg)](https://crates.io/crates/consist)
-[![Circle CI](https://circleci.com/gh/andreweduffy/consist/tree/master.svg?style=svg)](https://circleci.com/gh/andreweduffy/consist/tree/master)
+[![Travis CI](https://img.shields.io/travis/andreweduffy/consist.svg)](https://travis-ci.org/andreweduffy/consist/)
 
 consist: Rust consistent hashing
 ================================
@@ -12,6 +12,8 @@ for sharding in distributed systems, and have been implemented as part of
 [Varnish](https://github.com/varnishcache/varnish-cache/blob/master/lib/libvmod_directors/shard_hash.c)
 as well as in various client-side libraries for Redis, notably
 [redis-rb](https://github.com/redis/redis-rb/blob/master/lib/redis/hash_ring.rb).
+
+It uses the btree_range feature, thus you need to build on the unstable branch until the API for btree_range is finalized.
 
 Filing PRs and issues is welcome.
 
