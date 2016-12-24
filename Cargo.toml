@@ -1,6 +1,6 @@
 [package]
 name = "consist"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Andrew Duffy <root@aduffy.io>"]
 license = "MIT"
 keywords = ["consistent", "hashing", "ring"]
@@ -9,4 +9,6 @@ repository = "https://github.com/andreweduffy/consist"
 documentation = "https://docs.rs/consist/0.2.0/"
 include = ["src/**/*", "Cargo.toml"]
 
-[dependencies]
+[dependencies.crc]
+version = "^1.3.0"
+

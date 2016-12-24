@@ -5,9 +5,9 @@ use consist::HashRing;
 fn main() {
     // List of servers
     let mut ring = HashRing::new();
-    for i in 1..4 {
+    for i in 1..10 {
         let bucket = format!("192.168.0.{}", i);
-        println!("bucket {}", bucket);
+        println!("adding bucket {}", bucket);
         ring.add_bucket(format!("192.168.0.{}", i));
     }
     // Perform lookups for database queries
