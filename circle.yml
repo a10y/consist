@@ -8,4 +8,5 @@ test:
     override:
         - cargo build -v
         - cargo test -v
+        - cargo run --example memcached
 
