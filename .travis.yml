@@ -1,0 +1,9 @@
+language: rust
+cache: cargo
+sudo: required
+rust:
+- nightly
+- 1.14.0
+script:
+- cargo test
+- cargo run --example memcached
