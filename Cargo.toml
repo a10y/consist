@@ -6,7 +6,7 @@ license = "MIT"
 keywords = ["consistent", "hashing", "ring"]
 description = "Dead-simple consistent hashing library"
 repository = "https://github.com/andreweduffy/consist"
-documentation = "https://docs.rs/consist/0.2.0/"
+documentation = "https://docs.rs/consist/"
 include = ["src/**/*", "Cargo.toml"]
 
 [dependencies.crc]
