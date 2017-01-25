@@ -59,9 +59,9 @@ impl<B> HashRing<B>
         let hash_code = HashRing::<B>::get_hash_code(item);
         // If there are no buckets in the end of the circle from here to the end, we wrap around
         // and try from the beginning.
-        let back_half = self.buckets.range(Included(&hash_code), Unbounded).next().map(|val| val.1);
+        let back_half = self.buckets.range((Included(&hash_code), Unbounded)).next().map(|val| val.1);
         let front_half = self.buckets
-                             .range(Included(&0), Excluded(&hash_code))
+                             .range((Included(&0), Excluded(&hash_code)))
                              .next()
                              .map(|val| val.1);
         back_half.or(front_half)

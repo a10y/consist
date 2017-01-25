@@ -15,6 +15,16 @@ as well as in various client-side libraries for Redis, notably
 
 It uses the `btree_range` feature, thus you need to build on nightly until its API is finalized.
 
+Note: As of 24 Jan 2017, you need to be on at least the following versions:
+
+```
+$ rustc --version
+rustc 1.16.0-nightly (7821a9b99 2017-01-23)
+
+$ cargo --version
+cargo 0.17.0-nightly (2324c2b 2017-01-21)
+```
+
 Filing PRs and issues is welcome.
 
 ----
