@@ -1,5 +1,5 @@
 [![Crates.io](https://img.shields.io/crates/v/consist.svg)](https://crates.io/crates/consist)
-[![Travis CI](https://img.shields.io/travis/andreweduffy/consist.svg)](https://travis-ci.org/andreweduffy/consist/)
+[![Travis CI](https://img.shields.io/travis/a10y/consist.svg)](https://travis-ci.org/a10y/consist/)
 
 consist: Rust consistent hashing
 ================================
@@ -13,9 +13,9 @@ for sharding in distributed systems, and have been implemented as part of
 as well as in various client-side libraries for Redis, notably
 [redis-rb](https://github.com/redis/redis-rb/blob/master/lib/redis/hash_ring.rb).
 
-It uses the `btree_range` feature, thus you need to build on nightly until its API is finalized.
+It uses the `btree_range` feature, thus **you need to build on nightly until its API is finalized.**
 
-Note: As of 24 Jan 2017, you need to be on at least the following versions:
+**Note: As of 24 Jan 2017, you need to be on at least the following versions:**
 
 ```
 $ rustc --version
@@ -30,4 +30,4 @@ Filing PRs and issues is welcome.
 ----
 * [Crates.io](https://crates.io/crates/consist)
 * [Documentation](https://docs.rs/consist/)
-* [Usage Examples](https://github.com/andreweduffy/consist/tree/master/examples)
+* [Usage Examples](https://github.com/a10y/consist/tree/master/examples)
