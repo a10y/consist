@@ -14,7 +14,7 @@ use crc::crc64::{ECMA, Digest, Hasher64};
 
 use std::collections::BTreeMap;
 use std::hash::{Hash, Hasher};
-use std::collections::Bound::{Included, Excluded, Unbounded};
+use std::ops::Bound::{Included, Excluded, Unbounded};
 
 /// A newtype that wraps a Hasher64 and provides implementation of std::hash::Hasher methods.
 struct Hasher64StdHashHasher<T: Hasher64>(T);
